@@ -2,7 +2,7 @@ import { ICharacter, ICharacterProps } from "../interface/Character";
 import { GameObject } from "./GameObject";
 import { Health } from "./Health";
 
-export class Character extends GameObject implements ICharacter {
+export abstract class Character extends GameObject implements ICharacter {
   private _name: string
   private _health: Health
 
