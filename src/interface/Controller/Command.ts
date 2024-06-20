@@ -1,12 +1,12 @@
-import { CommandType } from "../../enum/Controller/CommandType"
+import { ECommandType } from "../../enum/Controller"
 import { TKeys } from "../../types"
 
 export interface ICommandProps {
   keys: TKeys
-  type: CommandType
+  type: ECommandType
 }
 
 export interface ICommand {
   keys: TKeys
-  type: CommandType
+  type: ECommandType
 }
