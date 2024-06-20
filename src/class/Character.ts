@@ -1,4 +1,4 @@
-import { ICharacter, ICharacterProps } from "../interface/Character";
+import { ICharacter, ICharacterProps } from "../interface";
 import { GameObject } from "./GameObject";
 import { Health } from "./Health";
 
