@@ -1,4 +1,4 @@
-import { IHealth } from "../interface/Health";
+import { IHealth } from "../interface";
 
 export class Health implements IHealth {
   private _max: number

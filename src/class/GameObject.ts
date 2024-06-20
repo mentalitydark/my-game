@@ -1,4 +1,4 @@
-import { IGameObject, IGameObjectProps } from "../interface/GameObject"
+import { IGameObject, IGameObjectProps } from "../interface"
 import { Dimension } from "./Dimension"
 import { Position } from "./Position"
 

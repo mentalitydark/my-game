@@ -9,9 +9,7 @@ export class Position {
 
   get x(): number { return this._x }
   get y(): number { return this._y }
+  set x(x: number) { this._x = x }
+  set y(y: number) { this._y = y }
 
-  public update(x: number, y: number) {
-    this._x = x
-    this._y = y
-  }
 }
